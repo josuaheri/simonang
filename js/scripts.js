@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
   document.getElementById('openSidebarBtn').addEventListener('click', openSidebar);
 
   function openSidebar() {
-      document.getElementById('sidebar').style.width = '250px';
+      document.getElementById('sidebar').style.width = '200px';
       document.getElementById('openSidebarBtn').classList.add('hidden');
       document.getElementById('closeSidebarBtn').classList.remove('hidden');
   }
